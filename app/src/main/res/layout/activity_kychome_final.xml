@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    tools:context=".activities.KYCHomeActivityFinal">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <com.shopoholicbuddy.customviews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:text="Upload the below required documents"
+                        android:textColor="@android:color/white"
+                        android:textSize="17sp"
+                        app:fontName="@string/orkney_bold"
+                        android:fontFamily="@string/orkney_bold"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rel_pan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:orientation="horizontal">
+
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_pan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_toLeftOf="@+id/float1"
+                            android:text="PAN"
+                            android:textColor="@android:color/white"
+                            app:fontName="@string/orkney_bold"
+                            android:fontFamily="@string/orkney_bold"/>
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/float1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/pan" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rel_cancelledCheque"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_cancelled_cheque"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="11dp"
+                            android:layout_toLeftOf="@+id/float2"
+                            android:text="Cancelled Cheque"
+                            android:textColor="@android:color/white"
+                            app:fontName="@string/orkney_bold"
+                            android:fontFamily="@string/orkney_bold"/>
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/float2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/cancel_cheque" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rel_gstCertificate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_gst_certificate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_toLeftOf="@+id/float3"
+                            android:text="GST Certificate"
+                            android:textColor="@android:color/white"
+                            app:fontName="@string/orkney_bold"
+                            android:fontFamily="@string/orkney_bold"/>
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/float3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/gst" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rel_Adhaar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_adhaar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_toLeftOf="@+id/float4"
+                            android:text="Adhaar"
+                            android:textColor="@android:color/white"
+                            app:fontName="@string/orkney_bold"
+                            android:fontFamily="@string/orkney_bold"/>
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/float4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/aadhar" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <!--      <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                  android:id="@+id/floatbtn_add"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:background="@color/colorAdd_Minus"
+                                  android:backgroundTint="@color/colorAdd_Minus"
+                                  android:src="@drawable/ic_add" />
+
+                              <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                  android:id="@+id/floatbtn_minus"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_toRightOf="@+id/floatbtn_add"
+                                  android:background="@color/colorAdd_Minus"
+                                  android:backgroundTint="@color/colorAdd_Minus"
+                                  android:src="@drawable/ic_minus" /> -->
+
+                        //Add popup screen and checkbox
+
+
+
+                        <CheckBox
+                            android:id="@+id/btn_checkbox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:backgroundTint="@color/colorAdd_Minus"
+                            android:background="@color/colorAdd_Minus"/>
+                        <!-- android:layout_below="@+id/floatbtn_add"/> -->
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_declaration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btn_checkbox"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-44dp"
+                            android:layout_toRightOf="@+id/btn_checkbox"
+                            android:text="I hearby declare that I don't have GST Registration and I accept the agreement."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            app:fontName="@string/orkney_bold"
+                            android:fontFamily="@string/orkney_bold"/>
+
+
+                        <com.shopoholicbuddy.customviews.CustomTextView
+                            android:id="@+id/txt_view_declaration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btn_checkbox"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="26dp"
+                            android:layout_marginTop="19dp"
+                            android:text="To view the declaration"
+                            android:textColor="@android:color/white"
+                            app:fontName="@string/orkney_bold" />
+
+                        <com.shopoholicbuddy.customviews.CustomButton
+                            android:id="@+id/btn_clickHere"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt_declaration"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="72dp"
+                            android:background="@color/colorAdd_Minus"
+                            android:fontFamily="@string/orkney_bold"
+                            android:text="Click Here"
+                            android:textColor="@color/colorLightWhite"
+                            app:fontName="@string/orkney_bold" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_action"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/toolbar_gradient">
+
+
+            <com.shopoholicbuddy.customviews.CustomButton
+                android:id="@+id/btn_submit"
+                android:layout_width="@dimen/_73sdp"
+                android:layout_height="@dimen/_73sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/zero_px_transparent"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="visible"
+                android:fontFamily="@string/orkney_bold"
+                app:fontName="@string/orkney_bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

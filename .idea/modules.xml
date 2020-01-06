@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShopoholicBuddyAndroid(Updated).iml" filepath="$PROJECT_DIR$/ShopoholicBuddyAndroid(Updated).iml" />
+      <module fileurl="file://$PROJECT_DIR$/amazons3library/ShopoholicBuddyAndroid(Updated)-amazons3library.iml" filepath="$PROJECT_DIR$/amazons3library/ShopoholicBuddyAndroid(Updated)-amazons3library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/ShopoholicBuddyAndroid(Updated)-app.iml" filepath="$PROJECT_DIR$/app/ShopoholicBuddyAndroid(Updated)-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraandgallery/ShopoholicBuddyAndroid(Updated)-cameraandgallery.iml" filepath="$PROJECT_DIR$/cameraandgallery/ShopoholicBuddyAndroid(Updated)-cameraandgallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codescanner/ShopoholicBuddyAndroid(Updated)-codescanner.iml" filepath="$PROJECT_DIR$/codescanner/ShopoholicBuddyAndroid(Updated)-codescanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fblibrary/ShopoholicBuddyAndroid(Updated)-fblibrary.iml" filepath="$PROJECT_DIR$/fblibrary/ShopoholicBuddyAndroid(Updated)-fblibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gifprogressbar/ShopoholicBuddyAndroid(Updated)-gifprogressbar.iml" filepath="$PROJECT_DIR$/gifprogressbar/ShopoholicBuddyAndroid(Updated)-gifprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googlelibrary/ShopoholicBuddyAndroid(Updated)-googlelibrary.iml" filepath="$PROJECT_DIR$/googlelibrary/ShopoholicBuddyAndroid(Updated)-googlelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagecropper/ShopoholicBuddyAndroid(Updated)-imagecropper.iml" filepath="$PROJECT_DIR$/imagecropper/ShopoholicBuddyAndroid(Updated)-imagecropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagepreviewlibrary/ShopoholicBuddyAndroid(Updated)-imagepreviewlibrary.iml" filepath="$PROJECT_DIR$/imagepreviewlibrary/ShopoholicBuddyAndroid(Updated)-imagepreviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/locationlibrary/ShopoholicBuddyAndroid(Updated)-locationlibrary.iml" filepath="$PROJECT_DIR$/locationlibrary/ShopoholicBuddyAndroid(Updated)-locationlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mpchartlib/ShopoholicBuddyAndroid(Updated)-mpchartlib.iml" filepath="$PROJECT_DIR$/mpchartlib/ShopoholicBuddyAndroid(Updated)-mpchartlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiplemediapicker/ShopoholicBuddyAndroid(Updated)-multiplemediapicker.iml" filepath="$PROJECT_DIR$/multiplemediapicker/ShopoholicBuddyAndroid(Updated)-multiplemediapicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratingbar/ShopoholicBuddyAndroid(Updated)-ratingbar.iml" filepath="$PROJECT_DIR$/ratingbar/ShopoholicBuddyAndroid(Updated)-ratingbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcaseviewlib/ShopoholicBuddyAndroid(Updated)-showcaseviewlib.iml" filepath="$PROJECT_DIR$/showcaseviewlib/ShopoholicBuddyAndroid(Updated)-showcaseviewlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amazons3library/amazons3library.iml" filepath="$PROJECT_DIR$/amazons3library/amazons3library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraandgallery/cameraandgallery.iml" filepath="$PROJECT_DIR$/cameraandgallery/cameraandgallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codescanner/codescanner.iml" filepath="$PROJECT_DIR$/codescanner/codescanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fblibrary/fblibrary.iml" filepath="$PROJECT_DIR$/fblibrary/fblibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gifprogressbar/gifprogressbar.iml" filepath="$PROJECT_DIR$/gifprogressbar/gifprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googlelibrary/googlelibrary.iml" filepath="$PROJECT_DIR$/googlelibrary/googlelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagecropper/imagecropper.iml" filepath="$PROJECT_DIR$/imagecropper/imagecropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagepreviewlibrary/imagepreviewlibrary.iml" filepath="$PROJECT_DIR$/imagepreviewlibrary/imagepreviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/locationlibrary/locationlibrary.iml" filepath="$PROJECT_DIR$/locationlibrary/locationlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mpchartlib/mpchartlib.iml" filepath="$PROJECT_DIR$/mpchartlib/mpchartlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiplemediapicker/multiplemediapicker.iml" filepath="$PROJECT_DIR$/multiplemediapicker/multiplemediapicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratingbar/ratingbar.iml" filepath="$PROJECT_DIR$/ratingbar/ratingbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcaseviewlib/showcaseviewlib.iml" filepath="$PROJECT_DIR$/showcaseviewlib/showcaseviewlib.iml" />
+    </modules>
+  </component>
+</project>
